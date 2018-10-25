@@ -1,0 +1,186 @@
+/** 
+ * 描述：重置页面元素，设置布局样式及公共模块
+ * 作用范围：公共
+ */
+
+/*@font-face {
+	font-family: 'PingHei';
+	src:url('http://down.bhuwifi.com/Public/Home2/font/bhu.ttf?-ssw1t1');
+	src:url('http://down.bhuwifi.com/Public/Home2/font/PingHei-light.ttf?-ssw1t1');
+    src:url('http://down.bhuwifi.com/Public/Home2/font/PingHei-light.woff?-ssw1t1') format('woff');
+*//*	src:url('../font/bhu.eot?#iefix-ssw1t1') format('embedded-opentype'),
+		url('../font/bhu.woff?-ssw1t1') format('woff'),
+		url('../font/bhu.otf?-ssw1t1') format('otf'),
+		url('../font/bhu.ttf?-ssw1t1') format('truetype'),
+		url('../font/bhu.svg?-ssw1t1#icomoon') format('svg');
+}*/
+
+@font-face{
+	font-family:SourceHanSansCN-ExtraLight;
+	/*为引入的字体命名*/
+	src:url(/Public/Home2/font/SourceHanSansCN-ExtraLight.otf);
+	/*定义要引入字体文件的路径*/
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,textarea,input,p,th,td,tr,table,tbody,thead,tfoot,em,strong,span {padding:0;margin:0;} 
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	width: 100%;
+} 
+img {
+	border:0 none;
+	vertical-align: middle;
+}
+
+input{
+	vertical-align: middle;
+} 
+em,i{
+	font-weight:normal;
+	font-style:normal;
+} 
+
+ol, ul {
+    list-style: none;
+} 
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+	font-size:100%;
+} 
+a { 
+	color: #939393; 
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+html,body {
+	font-family:"Microsoft Yahei",tahoma,arial;
+	background:#fff;
+	color:#666666;
+	font-size: 14px;
+	-webkit-text-size-adjust:none;
+}
+.dn{
+	display: none!important;
+}
+/* 布局样式 */
+.fclear,.dls{
+	zoom:1
+}
+.fclear:after,.dls:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.clearf{
+	clear:both;
+	display:block;
+	height:0;
+	line-height:0;
+	font-size:0;
+}
+.relative{
+	position: relative;
+}
+.fixed{
+	position:fixed;
+	top:0;
+}
+.fr{
+	float: right;
+}
+.fl{
+    float: left;
+}
+.f16{
+	font-size: 16px
+}
+.f18{
+	font-size: 18px
+}
+.pT4{
+	padding-top: 4px;
+}
+.pT15{
+	padding-top: 15px;
+}
+.pL15{
+	padding-left: 15px;
+}
+.ml15{
+	margin-left: 15px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.mT10{
+	margin-top: 10px;
+}
+textarea {
+  height: auto;
+  resize: none;
+  padding: 10px;
+}
+textarea,
+input[type="text"],
+input[type="password"]
+{
+	padding: 8px 10px;
+	vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+          font-family:'Microsoft Yahei',tahoma,arial;
+          vertical-align: middle;
+          border-radius: 5px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus{
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+input[disabled="disabled"]{
+	background: #eeeeee;
+	box-shadow: none
+}
+select{
+	padding: 4px;
+	color: #454d6b;
+	font-family: 'Microsoft Yahei',tahoma,arial;
+	vertical-align: middle;
+  	border: 1px solid #cccccc;
+  	background: #fff;
+  	height: 30px;
+  	border-radius: 5px;
+}
+
+/*页面样式*/
+.bhuBaground{
+    width: 100%;
+    min-width: 1200px;
+    min-height: 800px;
+	max-height: 800px;
+    overflow: hidden;
+}
+.txtlione {
+    font-size: 40px;
+    color: #FFFFFF;
+    line-height: 70px;
+}
+.txtlitwo {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 30px;
+}

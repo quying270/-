@@ -1,0 +1,41 @@
+
+.indexBgOne,.indexBgTwo,.indexBgThree{
+    width: 100%;
+    min-width: 1200px;
+    height: 800px;
+    text-align: center;
+    overflow: hidden;
+}
+.indexBgOne{
+    /*background: #f3f3f3 url('http://wifi.bhuwifi.com/Public/Home2/images/shouye/index_bg1.jpg') no-repeat center bottom;*/
+	background: #f3f3f3 url('../images/index_bg1.jpg') no-repeat center bottom;
+    /*margin: 120px auto;*/
+}
+.indexBgTwo{
+    min-height: 600px;
+	background: #f3f3f3 url('../images/index_bg2.jpg') no-repeat center bottom;
+    /*margin: 50px auto;*/
+}
+.indexBgThree{
+	background: #f3f3f3 url('../images/index_bg3.jpg') no-repeat center bottom;
+    /*margin: 80px auto;*/
+}
+.indexBgOne ul, .indexBgTwo ul, .indexBgThree ul{
+    margin: 120px 0;
+}
+.indexBgTwo ul li{
+    color: #939393;
+}
+.indexBgTwo ul li:first-child{
+    color: #67afde;
+}
+.indexBgTwo ul>a{
+    color: #67afde;
+    padding-top: 30px;
+    line-height: 35px;
+}
+.indexBgThree ul>a{
+    color: #ffffff;
+    padding-top: 50px;
+    line-height: 100px;
+}

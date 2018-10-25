@@ -1,0 +1,50 @@
+.bhuFoot{
+    width: 100%;
+    height: 150px;
+    min-width: 1200px;
+    color: #939393;
+    border-top: 1px solid #e2e2e2;
+}
+.bhuFoot .shopConter{
+    width: 1200px;
+    display: block;
+    border-bottom: 1px solid #f5f4f4;
+    line-height: 60px;
+    padding-top: 0;
+}
+.bhuFoot .shopConter dl{
+    width: 1200px;
+    margin: 0 auto;
+}
+.bhuFoot>div{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 15px;
+    font-size: 12px;
+}
+.bhuFoot div ul{
+	display: inline-block;
+	line-height: 25px;
+    padding-right: 65px;
+}
+.bhuFoot div ol{
+	display: inline-block;
+    line-height: 25px;
+    float: right;
+    padding-top: 20px;
+    text-align: right;
+}
+.bhuFootTel{
+	font-size: 28px;
+    padding: 10px 0;
+}
+.copyRight dl{
+    display: inline-block;
+}
+.copyRight dl dt,.copyRight dl dd{
+	display: inline-block;
+    line-height: 25px;
+}
+.copyRight dl dd{
+	float: right;
+}
