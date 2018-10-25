@@ -1,0 +1,129 @@
+.cityBgOne, .cityBgTwo, .cityBgThree, .cityBgFor, .cityBgFiv, .cityBgSix, .cityBgSev, .cityBgEig, .cityBgNine{
+    width: 100%;
+    min-width: 1200px;
+    height: 800px;
+    text-align: center;
+    overflow: hidden;
+}
+.cityBgOne > ul, .cityBgTwo > ul, .cityBgThree > ul, .cityBgFor > ul, .cityBgFiv > ul, .cityBgSix > ul, .cityBgSev > ul, .cityBgEig > ul, .cityBgNine > ul{
+	margin-top: 80px;
+}
+.cityBgOne ul li, .cityBgTwo ul li, .cityBgThree ul li, .cityBgFor ul li, .cityBgFiv ul li, .cityBgSix ul li, .cityBgSev ul li, .cityBgEig ul li, .cityBgNine ul li{
+	color: #939393;
+}
+.cityBgOne ul li:first-child, .cityBgTwo ul li:first-child, .cityBgThree ul li:first-child, .cityBgFor ul li:first-child, .cityBgFiv ul li:first-child, .cityBgSix ul li:first-child, .cityBgSev ul li:first-child, .cityBgEig ul li:first-child, .cityBgNine ul li:first-child{
+    color: #67afde;
+}
+.cityBgOne ul li:last-child {
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #67afde;
+}
+.cityBgOne ul li:last-child span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+.cityBgOne{
+	background: #f3f3f3 url('../images/urouterbg1.jpg') no-repeat center bottom;
+}
+.cityBgTwo{
+	border-bottom: 1px solid #ebebeb;
+	background: #f3f3f3 url('../images/urouterbg2.jpg') no-repeat center bottom;
+}
+.cityBgThree{
+	border-bottom: 1px solid #ebebeb;
+	background: #f3f3f3 url('../images/urouterbg3.jpg') no-repeat center bottom;
+}
+.cityBgFor{
+	border-bottom: 1px solid #ebebeb;
+	/*background: #f3f3f3 url('../images/urouterbg4.jpg') no-repeat center bottom;*/
+	background-color: #fff;
+}
+.cityBgFiv{
+	border-bottom: 1px solid #ebebeb;
+	/*background: #f3f3f3 url('../images/urouterbg5.jpg') no-repeat center bottom;*/
+	background-color: #fff;
+}
+.cityBgSix{ 
+	height: 792px;
+	border-bottom: 1px solid #ebebeb;
+	background: #f3f3f3 url('../images/urouterbg5.jpg') no-repeat center bottom;
+}
+.cityBgSev{ 
+	/*height: 792px;*/
+	border-bottom: 1px solid #ebebeb;
+	background: #f3f3f3 url('../images/citybg6.jpg') no-repeat center bottom;
+}
+.cityBgEig{ 
+	border-bottom: 1px solid #ebebeb;
+	background: #f3f3f3 url('../images/urouterbg6.jpg') no-repeat center bottom;
+}
+.cityBgNine{
+	border-bottom: 1px solid #ebebeb;
+	/*background: #f3f3f3 url('../images/urouterbg5.jpg') no-repeat center bottom;*/
+	background-color: #fff;
+}
+.cityBgFor ol {
+    position: relative;
+    width: 900px;
+    height: 520px;
+    margin: 20px auto;
+}
+.cityBgFor ol li {
+    display: inline-block;
+    position: absolute;
+    z-index: 9;
+    left: 60px;
+    top: 84px;
+}
+.cityBgFor ol li:last-child {
+    left: 156px;
+    top: 0;
+    z-index: 8;
+    box-shadow: 1px 1px 20px #666;
+}
+
+.cityBgFiv ol{
+    position: relative;
+    width: 900px;
+    margin: 110px auto;
+}
+.cityBgFiv ol li{
+    display: inline-block;
+    position: absolute;
+    left: 375px;
+    z-index: 9;
+    top: 80px;
+}
+.cityBgFiv ol li:first-child{
+    left: -29px;
+    top: 110px;
+    z-index: 8;
+}
+.cityBgFiv ol li:last-child{
+    left: 675px;
+    top: -26px;
+    z-index: 8;
+}
+.cityBgFiv ol li.productLine{
+    top: 160px;
+    left: 214px;
+    z-index: 5;
+}
+.cityBgNine ol{
+    width: 750px;
+    height: 520px;
+    margin:0 auto;
+    margin-top: 100px;
+}
+.cityBgNine ol li{
+    display: inline-block;
+    margin-right: 40px;
+    width: 150px;
+    height: 150px;
+}
+.cityBgNine ol li:last-child{
+    margin-right: 0;

@@ -25,12 +25,15 @@
 			<div class="bhuHeaderNav">
 				<a class="iconLogo icon-logo" href="#"></a>
 				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
 					<li class="productSeen">
-						<a href="">产品</a>
+						<a href="#">产品</a>
 						<div class="bhuHeaderProd dn">
 							<ul>
 								<li>
-									<a href="/Product/urouter">
+									<a href="urouter.html">
 				                       <p class="iconLogo iconProd icon-product1"></p>
 				                       <p>企业AP</p>
 				                    </a>
@@ -148,6 +151,11 @@
 			  },function(){
 			    $(".bhuHeaderProd").addClass("dn");
 			    $(".bhuHeader").css("border-bottom"," 1px solid #67afde");
+			  });
+			$(".bhuHeaderNav > ul > li").hover(function(){
+			    $(this).find("a").eq(0).addClass("bctive");
+			  },function(){
+			    $(this).find("a").eq(0).removeClass("bctive");
 			  });
 
 
