@@ -1,0 +1,20 @@
+.wrapper{
+	width: 1200px;
+	margin: 100px auto;
+}
+.wrapper tbody tr td{
+	padding: 70px 30px;
+	line-height: 30px;
+	color: #76797f;
+	border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    word-break: break-all;
+    vertical-align: middle;
+}
+.wrapper tbody tr td:first-child{
+	width: 150px;
+	padding-left: 150px;
+    border-left: none;
+    font-size: 16px;
+    text-align: center;
+}

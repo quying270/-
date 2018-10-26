@@ -1,0 +1,83 @@
+.appBgOne, .appBgTwo, .appBgThree, .appBgFor, .appBgFiv, .appBgSix, .appBgSev{
+    width: 100%;
+    min-width: 1200px;
+    height: 798px;
+    text-align: center;
+    overflow: hidden;
+}
+.appBgOne ul li, .appBgTwo ul li, .appBgThree ul li, .appBgFor ul li, .appBgFiv ul li, .appBgSix ul li, .appBgSev ul li{
+	color: #939393;
+}
+.appBgOne ul li:first-child, .appBgTwo ul li:first-child, .appBgThree ul li:first-child, .appBgFor ul li:first-child, .appBgFiv ul li:first-child, .appBgSix ul li:first-child, .appBgSev ul li:first-child{
+    color: #67afde;
+}
+.appBgOne > ul, .appBgSev > ul{
+	margin: 100px auto;
+	line-height: 30px;
+}
+.appBgOne{
+	background: #f3f3f3 url('../images/appbg2.jpg') no-repeat center bottom;
+}
+.appBgTwo, .appBgThree, .appBgFor, .appBgFiv, .appBgSix, .appBgSev{
+	background: #f3f3f3 url('../images/appbg1.jpg') no-repeat center bottom;
+}
+.appBgOne>lable {
+    float: left;
+    width: 50%;
+    margin-top: 79px;
+    text-align: right;
+}
+.appBgOne ul {
+    float: right;
+    width: 45%;
+    text-align: left;
+    margin-top: 240px;
+}
+.appBgOne ul li:last-child {
+    margin-top: 20px;
+}
+.appBgOne ul li p {
+	float: left;
+    width: 175px;
+    margin-right: 8px;
+}
+.appBgOne ul li p a {
+    background: #67afde;
+    color: #fff;
+    display: inline-block;
+    width: 140px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+.appBgTwo>div, .appBgThree>div, .appBgFor>div, .appBgSix>div, .appBgFiv>div {
+    width: 1200px;
+    margin: 100px auto;
+}
+.appBgTwo>div>p, .appBgFor>div>p, .appBgSix>div>p {
+    float: right;
+    width: 46%;
+    text-align: left;
+    margin-top: 20px;
+}
+.appBgTwo ul, .appBgFor ul, .appBgSix ul {
+    float: left;
+    width: 52%;
+    margin-top: 175px;
+    text-align: left;
+	line-height: 30px;
+}
+.appBgThree>div>p, .appBgFiv>div>p {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 20px;
+}
+.appBgThree ul, .appBgFiv ul {
+    float: right;
+    width: 47%;
+    margin-top: 175px;
+    text-align: left;
+	line-height: 30px;
+}
